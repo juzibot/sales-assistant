@@ -4,6 +4,11 @@
 ## About the Project 
 For a company to sell its enterprise service, the sales need to communicate with the potential customers effectively.  As each sales are overloaded with customers, they are prone to delayed response and low-quality response. However, evaluating the conversation between sales and customers requires huge labor works from manager and HRs.  Therefore, a sales-assistant chatbot to record, analyze, and visualize the metrics of the conversation comes in handy. 
 
+### Blog
+1. [基于Wechaty的销售助理机器人--项目规划](https://wechaty.js.org/2021/11/11/sales-assistant-bot/)
+2. [基于Wechaty的销售助理机器人--项目中期进展](https://wechaty.js.org/2021/12/14/sales-assistant-mid-term-progress/)
+3. [基于Wechaty的销售助理机器人--结项报告](https://wechaty.js.org/2022/02/10/sales-assistant-final/)
+
 ### Video Links
 1. [期初報告](https://youtu.be/OHKxFKlIaIU)
 2. [期中報告1](https://youtu.be/i45SQ4CrsdE)
