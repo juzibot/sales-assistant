@@ -1,0 +1,60 @@
+{
+    "_events": {},
+    "_eventsCount": 0,
+    "id": "1166190",
+    "payload": {
+        "filename": "",
+        "fromId": "1688857614265501",
+        "id": "1166190",
+        "mentionIdList": [],
+        "roomId": "R:10696050042046378",
+        "text": "asd",
+        "timestamp": 1643268533000,
+        "toId": "",
+        "type": 7,
+        "fromInfo": {
+            "_events": {},
+            "_eventsCount": 0,
+            "id": "1688857614265501",
+            "payload": {
+                "address": "",
+                "alias": "",
+                "avatar": "https://mmhead.c2c.wechat.com/mmhead/Xewa2JUmZ1pSrWkf59DmsQqfvwo7hbxPV5w1iazKXeQv5E8OgqWbLVA/0",
+                "city": "",
+                "corporation": "",
+                "coworker": false,
+                "description": "",
+                "friend": true,
+                "gender": 1,
+                "id": "1688857614265501",
+                "name": "童子铨",
+                "phone": [],
+                "province": "",
+                "signature": "",
+                "star": false,
+                "title": "",
+                "type": 3,
+                "weixin": "TongZiQuan"
+            }
+        },
+        "toInfo": {},
+        "roomInfo": {
+            "_events": {},
+            "_eventsCount": 0,
+            "id": "R:10696050042046378",
+            "payload": {
+                "adminIdList": [],
+                "avatar": "",
+                "id": "R:10696050042046378",
+                "memberIdList": [
+                    "1688854422285964",
+                    "1688857614265501",
+                    "1688857614266595"
+                ],
+                "ownerId": "1688857614265501",
+                "topic": ""
+            },
+            "topic": "童子铨,余思荷"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+  "All":{
+    "WechatyToken": "puppet_wxwork_xxxxxxxxxx",
+    "timeZone":"Asia/Shanghai",
+    "updateCycleTime":{ 
+      "updateVika":60000,
+      "vika2Feishu":60000,
+      "vika2Db":60000
+    },
+    "dbConfig": {
+      "host": "localhost",
+      "protocol":"https",
+      "port": 9200,
+      "auth": "admin:admin"
+    },
+    "index":{
+      "msg": "custom-msg-index",
+      "room": "custom-room-index",
+      "name": {
+        "index":"custom-name-index",
+        "docId": 1,
+        "backup":10
+        }
+    },
+    "corp":{
+      "name":"your-corp-name"
+    },
+    "vika":{
+      "token":"uskxxxxx",
+      "todayRoom":"dstedxxxxxxx",
+      "allRooms":"dstxxxxxxxxx",
+      "systemLog":""
+    },
+    "names":{
+      "sales":[
+        "Andy",
+        "Ben", 
+        "Carl"
+      ],
+      "after_sales":[
+        "Daniel",
+        "Emily"
+      ],
+      "delete_names":false
+    },
+    "lark":{
+      "appId":"cli_xxxxx",
+      "appKey":"xxxxxxxx", 
+      "channels":{
+        "test_roomid":"oc_xxxx",
+        "alert_group":"oc_xxxx"
+      },
+      "is_developing":false,
+      "sales2chat":{
+        "Andy":"oc_xxxx",
+        "Ben":"oc_xxxx", 
+        "Carl":"oc_xxxx",
+        "Daniel":"oc_xxxx",
+        "Emily":"oc_xxxx"
+      },
+      "serverPort":1235,
+      "salesAlert":{
+        "color_level":{
+          "5":"turquoise",
+          "10":"yellow", 
+          "20":"orange",
+          "30":"red",
+          "40":"purple",
+          "50":"blue", 
+          "above":"grey"
+        },
+        "cycle_time":10,
+        "until":70,
+        "group_alert_threshold": 20
+      },
+      "afterSalesAlert":{
+        "color_level":{
+          "5":"turquoise",
+          "10":"yellow",
+          "20":"orange",
+          "30":"red",
+          "40":"purple",
+          "50":"blue",
+          "above":"grey"
+        },
+        "cycle_time":10,
+        "until":70,
+        "group_alert_threshold":20
+      }
+    }
+  } 
+}
+
+

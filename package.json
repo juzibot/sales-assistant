@@ -1,0 +1,71 @@
+{
+  "name": "wechaty-getting-started",
+  "version": "1.0.30",
+  "description": "Wechaty conversational SDK getting start template & examples",
+  "type": "module",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  },
+  "scripts": {
+    "lint": "",
+    "start": "cross-env NODE_OPTIONS=\"--no-warnings --loader=ts-node/esm\" node src/sales-bot.js",
+    "start:js": "node examples/ding-dong-bot.js",
+    "start:service": "cross-env WECHATY_LOG=verbose WECHATY_PUPPET=wechaty-puppet-service npm start",
+    "start:wechat:web": "cross-env WECHATY_LOG=verbose WECHATY_PUPPET=wechaty-puppet-wechat npm start",
+    "start:wechat:padlocal": "cross-env WECHATY_LOG=verbose WECHATY_PUPPET=wechaty-puppet-padlocal npm start",
+    "start:whatsapp:web": "cross-env WECHATY_LOG=verbose WECHATY_PUPPET=wechaty-puppet-whatsapp npm start",
+    "test": "npm-run-all lint test:version test:smoke",
+    "test:smoke": "cross-env NODE_OPTIONS=\"--no-warnings --loader=ts-node/esm\" tap \"tests/**/*.spec.ts\"",
+    "test:version": "check-node-version --node \">= 16\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wechaty/wechaty-getting-started.git"
+  },
+  "keywords": [],
+  "author": "Huan LI <zixia@zixia.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wechaty/wechaty-getting-started/issues"
+  },
+  "homepage": "https://github.com/wechaty/wechaty-getting-started#readme",
+  "dependencies": {
+    "@larksuiteoapi/allcore": "^1.0.13",
+    "@opensearch-project/opensearch": "^1.0.0",
+    "@vikadata/vika": "^1.0.5",
+    "@yaireo/relative-time": "^1.0.1",
+    "blob": "^0.1.0",
+    "config": "^3.3.7",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "export-to-csv": "^0.2.1",
+    "file-saver": "^2.0.5",
+    "forever": "^4.0.2",
+    "json2csv": "^5.0.6",
+    "lark-js-sdk": "^0.1.2",
+    "moment": "^2.29.1",
+    "node-blob": "^0.0.2",
+    "objects-to-csv": "^1.3.6",
+    "qrcode-terminal": "^0.12.0",
+    "sheet-db": "^1.0.1",
+    "wechaty": "^1.0.4",
+    "wechaty-plugin-contrib": "^1.0.13",
+    "wechaty-puppet": "^0.34.1",
+    "wechaty-puppet-lark": "^0.4.5",
+    "wechaty-puppet-lark-2": "^0.4.7",
+    "wechaty-puppet-service": "0.21.1"
+  },
+  "devDependencies": {
+    "@chatie/eslint-config": "^1.0.4",
+    "@chatie/git-scripts": "^0.6.2",
+    "@chatie/tsconfig": "^1.0.2",
+    "check-node-version": "^4.1.0",
+    "is-pr": "^2.0.0"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "npx git-scripts-pre-push"
+    }
+  }
+}
